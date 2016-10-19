@@ -3,6 +3,7 @@ applications:
 - name: fdtiledemo
   memory: 512M
   host: fdtiledemo
-  path: fdtiledemo-0.0.1-SNAPSHOT.jar
-#services:
-  - <put_your_FirstData_service_name_here>
+  path: target/fdtiledemo-0.0.1-SNAPSHOT.jar
+  buildpack: https://github.com/cloudfoundry/java-buildpack
+services:
+  - <your_service_name_here>
