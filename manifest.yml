@@ -3,6 +3,6 @@ applications:
 - name: fdtiledemo
   memory: 512M
   host: fdtiledemo
-  path: target/ccdemo1-0.0.1-SNAPSHOT.jar
+  path: fdtiledemo-0.0.1-SNAPSHOT.jar
 #services:
-#  - fdapi_webinar
+  - <put_your_FirstData_service_name_here>
